@@ -3,7 +3,7 @@ package com.rsmotola.exceptions;
 import java.io.Serializable;
 import java.util.Date;
 
-public class ExceptioResponse implements Serializable{
+public class ExceptionResponse implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 	
@@ -11,7 +11,7 @@ public class ExceptioResponse implements Serializable{
 	private String message;
 	private String details;
 	
-	public ExceptioResponse(Date timestamp, String message, String details) {
+	public ExceptionResponse(Date timestamp, String message, String details) {
 		this.timestamp = timestamp;
 		this.message = message;
 		this.details = details;
